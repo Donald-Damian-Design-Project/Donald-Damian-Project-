@@ -167,10 +167,16 @@ h4 {
     .hidden-break {
         display: block;
         width: 100%;
+
+    }
+    .circles {
+        max-width: 220px;
     }
 
     .hidden-on-mobile {
         display: none;
     }
+    .shrinks {
 
+    }
 }
