@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="css/DoubleDs!.css">
     <title>DoubleDs!</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, h4{
+            font-family: 'Anton', sans-serif;
+        }
+        h3, p, nav {
+            font-family: 'Abel', sans-serif;
+        }
+    </style>
 </head>
 <body class="background">
 
@@ -64,6 +78,7 @@
                     <span class="dot2 text-uppercase fw-bold">Develop</span>
                 </div>
             </div>
+            <div class="hidden-break"></div>
                 <div class="col">
                     <div>
                         <span class="dot3 text-uppercase fw-bold">Support</span>
@@ -76,23 +91,25 @@
                 </div>
             </div>
     </section>
+
     <!--Line break under header-->
     <div class="container">
         <hr class="mt-3">
     </div>
+
     <!--Hero/Protag-->
     <main class="container d-flex">
         <div class="row">
             <!-- Left side of the page, 2x2 images section-->
             <div class="col-lg-9 col-sm-12">
-                <h3>Selected Work</h3>
+                <h3 class="text-center pb-5">Selected Work</h3>
                 <div class="row">
                     <div class="work-card col-lg-6 col-sm-12">
                         <div class="post-image-wrapper">
                             <img src="img/apple-ipad.jpg" height="426" width="640"/>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>Featured Project</h4>
+                            <h3 class="text-uppercase fs-5 pt-2">Featured Project</h3>
                             <div class="d-flex align-items-center gap-2 fw-bold">
                                 <div class="little-circle minidot1">D</div>
                                 <div class="little-circle minidot2">D</div>
@@ -106,7 +123,7 @@
                             <img src="img/macbook.jpg" height="426" width="640"/>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>Featured Project</h4>
+                            <h3 class="text-uppercase fs-5 pt-2">Featured Project</h3>
                             <div class="d-flex align-items-center gap-2 fw-bold">
                                 <div class="little-circle minidot1">D</div>
                                 <div class="little-circle minidot2">D</div>
@@ -120,7 +137,7 @@
                             <img src="img/man.jpg" height="426" width="640"/>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>Featured Project</h4>
+                            <h3 class="text-uppercase fs-5 pt-2">Featured Project</h3>
                             <div class="d-flex align-items-center gap-2 fw-bold">
                                 <div class="little-circle minidot1">D</div>
                                 <div class="little-circle minidot2">D</div>
@@ -134,7 +151,7 @@
                             <img src="img/security.jpg" height="426" width="640"/>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>Featured Project</h4>
+                            <h3 class="text-uppercase fs-5 pt-2">Featured Project</h3>
                             <div class="d-flex align-items-center gap-2 fw-bold">
                                 <div class="little-circle minidot1">D</div>
                                 <div class="little-circle minidot2">D</div>
@@ -145,10 +162,11 @@
                     </div>
                 </div>
             </div>
+
             <!--Right ASIDE-->
-            <div class="col-lg-3 col-sm-12">
+            <div class="col-lg-3 col-sm-12 hidden-on-mobile">
                 <aside class="d-flex flex-column">
-                        <h3>The Last</h3>
+                        <h3 class="text-center">The Last</h3>
                         <div>
                             <div class="d-flex m-4">
                                     <img src="img/mobile-phone.jpg" height="426" width="640" class="img-fluid img-thumbnail aside-img-wrapper" alt="Responsive image"/>
@@ -158,18 +176,22 @@
                         </div>
                         <div>
                             <div class="d-flex m-4">
-                                    <img src="img/head.jpg" height="451" width="640" class=""/>
-
+                                    <img src="img/head.jpg" height="451" width="640" class="img-fluid img-thumbnail aside-img-wrapper"/>
                                 <h4>D.D.'s Awesome Website Testing</h4>
                             </div>
                         </div>
                         <div>
                             <div class="d-flex m-4">
-                                    <img src="img/ipad.jpg" height="425" width="640"/>
-
+                                    <img src="img/ipad.jpg" height="425" width="640" class="img-fluid img-thumbnail aside-img-wrapper"/>
                                 <h4>How to Get Google to Like You</h4>
                             </div>
                         </div>
+                    <div class="container m-4">
+                        Last Tweet
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid asperiores aut cum dicta doloribus eos iusto minus qui rerum, unde, ut vero voluptate voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis, doloremque ducimus et impedit laboriosam minus repudiandae tempora! Adipisci alias animi libero nihil nobis, rerum?</p>
+
+                    </div>
+
 
                 </aside>
             </div>

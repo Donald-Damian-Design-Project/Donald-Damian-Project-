@@ -1,8 +1,11 @@
+
+font-family: 'Anton', sans-serif;
+
 img {
     max-width: 100%;
 }
 
-.background{
+.background {
     background-color: #f0f0f0;
 
 }
@@ -31,6 +34,7 @@ img {
     align-items: center;
     font-size: 8px;
 }
+
 .dot2 {
     height: 75px;
     width: 75px;
@@ -46,6 +50,7 @@ img {
     align-items: center;
     font-size: 8px;
 }
+
 .dot3 {
     height: 75px;
     width: 75px;
@@ -61,6 +66,7 @@ img {
     align-items: center;
     font-size: 8px;
 }
+
 .dot4 {
     height: 75px;
     width: 75px;
@@ -138,8 +144,8 @@ img {
 
 .post-image-wrapper img {
     display: block;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -151,5 +157,20 @@ img {
 
 h4 {
     text-transform: uppercase;
+
+}
+.hidden-break {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .hidden-break {
+        display: block;
+        width: 100%;
+    }
+
+    .hidden-on-mobile {
+        display: none;
+    }
 
 }
