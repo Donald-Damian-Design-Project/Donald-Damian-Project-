@@ -150,6 +150,7 @@ img {
 }
 
 .aside-img-wrapper {
+    /*flex: 0 0 100px;*/
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -161,13 +162,23 @@ h4 {
 
 }
 
+@media screen and (min-width: 991px) {
+    .img-size {
+        width: 65px;
+        height: 65px;
+    }
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
+    /*.img-size {*/
+    /*    width: 65px;*/
+    /*    height: 65px;*/
+    /*}*/
     .circles {
         max-width: 220px;
     }
     .hidden-on-mobile {
         display: none;
     }
-
 }
+
