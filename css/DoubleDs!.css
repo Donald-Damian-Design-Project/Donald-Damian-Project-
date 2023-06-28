@@ -20,6 +20,10 @@ img {
     font-size: .75rem;
 }
 
+.fontfams {
+    font-family: 'Abel', sans-serif;
+}
+
 .icon-border {
     border: 5px solid #fff;
     border-radius: 100%;
@@ -38,7 +42,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8px;
+    font-size: 13px;
 }
 
 .dot1 {
@@ -123,7 +127,6 @@ img {
 }
 
 .aside-img-wrapper {
-    /*flex: 0 0 100px;*/
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -135,18 +138,14 @@ h4 {
 
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 690px) {
     .img-size {
         width: 65px;
         height: 65px;
     }
 }
 
-@media screen and (max-width: 991px) {
-    /*.img-size {*/
-    /*    width: 65px;*/
-    /*    height: 65px;*/
-    /*}*/
+@media screen and (max-width: 690px) {
     .circles {
         max-width: 220px;
     }
@@ -155,4 +154,13 @@ h4 {
         display: none;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .hidden-on-tablet {
+        display: none;
+    }
+    .tablet-grid {
+    }
+}
+
 
